@@ -62,12 +62,11 @@ class HomePage extends HookWidget {
               const SizedBox(height: 16),
               Container(
                 padding: const EdgeInsets.all(16),
-                color: Colors.yellowAccent,
-                child: Text(context
-                    .watch<BoxerCubit>()
-                    .state
-                    .finalCalculation
-                    .toString()),
+                color: Colors.grey,
+                child: Text(
+                  context.watch<BoxerCubit>().state.finalCalculation.toString(),
+                  style: const TextStyle(fontSize: 30),
+                ),
               ),
               const SizedBox(height: 10),
             ],
