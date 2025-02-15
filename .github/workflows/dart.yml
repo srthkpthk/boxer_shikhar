@@ -11,5 +11,4 @@ jobs:
       - uses: subosito/flutter-action@v2
       - uses: bluefireteam/flutter-gh-pages@v7
         with:
-          webRenderer: html
-          baseHref: /boxer/
+          baseHref: /boxer_ayush/
