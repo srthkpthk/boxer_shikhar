@@ -359,7 +359,7 @@ class _Board extends HookWidget {
                     var calculation = ((double.parse(length.text) *
                                 double.parse(width.text) *
                                 double.parse(gram.text)) /
-                            1521) *
+                            1529) *
                         double.parse(rate.text);
 
                     context.read<BoxerCubit>().addBoardCalculation(calculation);
